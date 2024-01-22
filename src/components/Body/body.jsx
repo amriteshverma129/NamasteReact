@@ -1,6 +1,6 @@
 import React from "react";
-import data from "../../public/service.json";
-import ResturantCard from "./ResturantCard";
+import data from "../../utils/service.json";
+import ResturantCard from "../ResturantCard";
 
 const Body = () => {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AppLayout from "./app";
+import { RouterProvider } from "react-router-dom";
+import appRouter from "./app";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -30,4 +31,4 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //   );
 // };
 
-root.render(<AppLayout />);
+root.render(<RouterProvider router={appRouter} />);
